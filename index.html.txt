@@ -1,0 +1,199 @@
+# portfolio_project
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Kushal</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home"> HOME </a> 
+            <a href="#services"> SERVICES </a> 
+            <a href="#skills"> SKILLS </a> 
+            <a href="#education"> EDUCATION </a> 
+            <a href="#experience"> EXPERIENCE </a> 
+            <a href="#contact"> CONTACT </a> 
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-img">
+
+            <img src="kushal.jpg" alt="#">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Kushal</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>
+                I am a versatile and highly skilled individual, excelling as a content creator and editor, programmer, and computer expert. My creative prowess shines through in my ability to craft engaging and compelling content, whether it be written articles, multimedia presentations, or other forms of digital media. As a programmer, I demonstrate a deep understanding of various coding languages and possess the technical acumen to develop innovative solutions. My expertise in computer science extends beyond programming, encompassing a comprehensive understanding of hardware, software, and systems architecture. With a unique blend of creativity and technical proficiency, I navigate seamlessly between the realms of content creation and programming, making me a valuable asset in the digital landscape.
+
+
+
+            </p>
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>C & C++</h4>
+                    <p>I have basic knowladge in c progrsmming and c++ as I learn in highschool I cannot learn it more. I had done different project through c++. </p>
+                </div>
+            </div>
+            <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Front-end Developer</h4>
+                    <p>I have deep knowladge in HTML, CSS & Javascript. I had worked in many projects and have 2 years of experience.</p>
+                </div>
+            </div>
+            <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Graphic Designer</h4>
+                    <p>I have huge knowlagde in graphic designing and had work in different projects. </p>
+                </div>
+            </div>
+            <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Microsoft Expert</h4>
+                    <p>I have deep knowladge in MS as it is used in our daily life. I have taught many student from basic level to advanced level.</p>
+                </div>
+            </div>
+            <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Video Editor</h4>
+                    <p>I have decent knowladging in video edting. I havenot done it professionally but have edited many times.</p>
+                    
+                </div>
+            </div>  
+            
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="cpp.webp">
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="js.png">
+                        <span>Javascript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="ps.png">
+                        <span>Adobe Photoshop</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="ms.jpg">
+                        <span>MS expert</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="film.png">
+                        <span>Editing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="educations">
+        <h2 class="heading">My <span>Education</span></h2>
+        <ul class="timeline">
+            <li class="container right">
+                <div class="tag">
+                    <h2><span>Sch</span>ool</h2>
+                </div>
+                <div class="decs">
+                    <p>School</p>
+                </div>
+            </li>
+            <li class="container left">
+                <div class="tag">
+                    <h2><span>High</span>school</h2>
+                </div>
+                <div class="decs">
+                    <p>Highschool</p>
+                </div>
+            </li>
+            <li class="container right">
+                <div class="tag">
+                    <h2><span>Uni</span>versity</h2>
+                </div>
+                <div class="decs">
+                    <p>University</p>
+                </div>
+            </li>
+            <li class="container left">
+                <div class="tag">
+                    <h2><span>Intern</span>ship</h2>
+                </div>
+                <div class="decs">
+                    <p>Internship</p>
+                </div>
+            
+        </ul>
+    </section>
+    <section class="section" id="contact">
+        <h2 class="heading">Contact <span>  Me</span></h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email"  placeholder="Email" required>
+                <input type="Number" placeholder="PhoneNum" required>
+                <input type="text"  placeholder="Subject" required>
+                <input type="submit" value="Submit">
+
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kushal-b-shrestha-aa168831b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/k_u_s_s_e_l/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/kushal.shrestha.62" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">
+            For further information or enquiry contact<br>
+            Contact:9863380088<br>
+            Gmail:<a href="mailto:shresthakushalb62@gmail.com">shresthakushalb62@gmail.com</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
